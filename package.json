@@ -3,6 +3,9 @@
   "version": "3.5.35",
   "description": "2D skeletal animation runtimes for Spine.",
   "main": "spine-ts/build/spine-all.js",
+  "scripts": {
+    "serve": "gulp serve"
+  },
   "directories": {
     "example": "examples"
   },
@@ -25,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/EsotericSoftware/spine-runtimes/issues"
   },
-  "homepage": "https://github.com/EsotericSoftware/spine-runtimes#readme"
+  "homepage": "https://github.com/EsotericSoftware/spine-runtimes#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.8.0",
+    "typescript": "^4.0.2"
+  }
 }
