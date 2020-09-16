@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
         "module": "commonJS"
+    },
+    "typeAcquisition": {
+        "include": ["jquery"]
     }
 }

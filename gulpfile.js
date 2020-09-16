@@ -7,7 +7,7 @@ gulp.task('serve', () => {
         server: {
             baseDir: './spine-ts'
         },
-        startPath: '/webgl/example/test.html',
+        startPath: '/webgl/example/my_demo.html',
         port: '8019'
     });
 
